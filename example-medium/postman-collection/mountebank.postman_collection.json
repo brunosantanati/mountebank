@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "cd55a6b7-578a-4411-8804-d971d8a968f7",
+		"name": "mountebank",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2372342"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:4545/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4545",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

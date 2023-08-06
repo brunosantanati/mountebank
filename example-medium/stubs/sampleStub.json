@@ -1,0 +1,22 @@
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "POST",
+        "path": "/test",
+	"headers": { "Content-Type": "application/json" }
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {
+              "Content-Type": "application/json"
+        },
+        "body": "<%- stringify(filename, 'stubs/responses/response.ejs') %>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mountebank-test",
+  "version": "1.0.0",
+  "description": "Example from Medium",
+  "main": "index.js",
+  "scripts": {
+    "mock": "mb --configfile imposters.ejs --loglevel debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunosantanati/mountebank.git"
+  },
+  "author": "Bruno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunosantanati/mountebank/issues"
+  },
+  "homepage": "https://github.com/brunosantanati/mountebank#readme",
+  "dependencies": {
+    "mountebank": "^2.0.0"
+  }
+}
